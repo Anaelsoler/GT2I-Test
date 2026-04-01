@@ -10,7 +10,7 @@ J’ai fait les tests sur un PrestaShop en local avec XAMPP (pour héberger un s
 
 # Exercice 2 - Import XML vers MySQL
 
-Le fichier `catalogue.XML`  contient les données produits. Chaque produit est dans une balise `<fLigne>`. J’utilise `MagicParser.php` pour lire le fichier et récupérer chaque produit sous forme de tableau PHP.
+Le fichier `catalogue.XML`  contient les données produits. Chaque produit est dans une balise `<fLigne>`. J’ai utilisé `MagicParser.php` pour lire le fichier et récupérer chaque produit sous forme de tableau PHP.
 
 J’ai créé la structure de la table dans le fichier `create_table.sql`, puis j’ai utilisé `import_xml.php` pour me connecter à la base avec PDO, préparer une requête d’insertion, et insérer automatiquement chaque ligne du XML dans la table `catalogue_produits`.
 
